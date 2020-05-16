@@ -1,6 +1,5 @@
 nav{
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(19,35,93,1) 0%, rgba(9,9,121,1) 12%, rgba(15,162,191,1) 100%);
-    border-bottom : 2px;
 }
 
 /* BLINKING BRAND */
@@ -31,7 +30,6 @@ nav{
   }
 /* END OK OF BLINKING BRAND */
 
-/* VIDEO + TEXT + BUTTON ON HOME  */
 
 /* #video{
     position: relative;
@@ -56,10 +54,6 @@ nav{
     background: none;
 }
 
-
-/* END OF  JUMBOTRON AND VIDEO ON HOME  */
-
-
 .button-1{
     display: block;
     width: 120px;
@@ -79,11 +73,6 @@ nav{
     background: # lightcyan;
     color: #fff;
 }
-
-#icon{
-    vertical-align: middle;
-}
-
 
 .wrapper{
     text-align: center;
