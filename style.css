@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 nav{
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(19,35,93,1) 0%, rgba(9,9,121,1) 12%, rgba(15,162,191,1) 100%);
 }
@@ -41,33 +47,19 @@ nav{
   }
   */
 
+.navbar-brand{
+  position: relative;
+}
+
+.logo{
+  margin-top: -25px;
+}
 #video-background{
     width: 100%;
+    opacity: .6;
+    clip-path: polygon(0 0, 100% 0%, 100% 93vh, 0 100%);
 }
 
-.container h1{
-    font-family: 'Crete round', Arial, Helvetica, sans-serif;
-    color: white;
-    text-align: center;
-    justify-content: center;
-    z-index: 1;
-    background: none;
-}
-
-.button-1{
-    display: block;
-    width: 120px;
-    height: 50px;
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(19,35,93,1) 0%, rgba(9,9,121,1) 12%, rgba(15,162,191,1) 100%);
-    border-radius: 20%;
-    color: #fff;
-    font-size: 30px;
-    margin-top: 140px;
-    margin: 0 auto;
-    line-height: 50px;
-    text-align: center;
-
-}
 
 .button-1:hover{
     background: # lightcyan;
